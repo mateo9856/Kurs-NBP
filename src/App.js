@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <h1>Kurs NBP</h1>
-      <h3>Wybierz kurs z ostatnich 50 notowań</h3>
+      <h3>Wybierz ostatnie 50 notowań</h3>
       <form onSubmit = {handleSubmit}>
         <select value = {selectedDate} onChange = {(e) => {
           setSelectedDate(e.target.value)
